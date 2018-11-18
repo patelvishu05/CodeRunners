@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public void skipIt(View v)
     {
         mySong.stop();
-        mySong = MediaPlayer.create(MainActivity.this, R.raw.dura);
-        mySong.start();
+//        mySong = MediaPlayer.create(MainActivity.this, R.raw.dura);
+//        mySong.start();
     }
 }
